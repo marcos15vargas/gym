@@ -9,11 +9,11 @@ import Footer from '../components/Footer.astro';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>GYM COSTANERA</title>
 	</head>
 	<body class="relative">
 		<Navbar/>
-		<slot />
+			<slot />
 		<Footer/>
 	</body>
 </html>
@@ -31,5 +31,10 @@ import Footer from '../components/Footer.astro';
 		height: 100%;
 		background-color: #171820;
 		color: white;
+		background-image: url('../assets/fondo/fondo-asfalto.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 </style>
