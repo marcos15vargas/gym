@@ -1,0 +1,44 @@
+
+
+
+<section class="bg-fondo pt-16 ">
+    <div class="max-w-5xl mx-auto overflow-hidden flex justify-around">
+        <div id="pic" class="one size-60 flex items-center justify-center">
+            <h3 class="text-2xl font-bold">ENERGIA</h3>
+        </div>
+        <div id="pic" class="two size-60 flex items-center justify-center">
+            <h3 class="text-2xl font-bold">SIN</h3>
+        </div>
+        <div id="pic" class="three size-60 flex items-center justify-center">
+            <h3 class="text-2xl font-bold">LIMITES</h3>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    #pic{
+        background-image: url('../../public/threepics/img1.webp');
+        background-size: cover;
+		background-position: center;
+        position: relative;
+    }
+    #pic::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+    }
+
+    #pic > * {
+        position: relative;
+        z-index: 2;
+    }
+    h3{
+        font-family: 'gym-bold';
+    }
+</style>
