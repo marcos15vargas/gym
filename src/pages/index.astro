@@ -3,6 +3,7 @@ import Banner from '../components/Banner.astro';
 import Info from '../components/Info.astro';
 import Plans from '../components/Plans.astro';
 import Threepics from '../components/Threepics.astro';
+import TimeTable from '../components/TimeTable.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -12,15 +13,9 @@ import Layout from '../layouts/Layout.astro';
 	<Threepics/>
 	<Info/>
 	<Plans/>
+	<section class="bg-fondo py-8">
+		<h4 class="text-center text-2xl">espacio para seccion de maquinas</h4>
+	</section>
+	<TimeTable/>
 	
-	<div class="text-[#e0e6d8]">
-		<div class="h-96 bg-fondo flex flex-col items-center">
-			<h2>Estamos en construcción</h2>
-			<h1>Gymnasio Costanera</h1>
-			<h2>re mil puto el que lee</h2>
-		</div>
-		<div class="h-96 bg-fondo"></div>
-		<div class="h-96"></div>
-		<div class="h-96 bg-fondo"></div>
-	</div>
 </Layout>
