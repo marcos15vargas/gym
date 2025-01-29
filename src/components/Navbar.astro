@@ -2,24 +2,87 @@
 import Logo from "../assets/Logo.astro";
 ---
 
-<nav class="bg-amarillo h-20 w-[60%] m-auto flex justify-around rounded-xl fixed left-1/2 transform -translate-x-1/2 mt-4 z-50">
-    <div class="flex items-center size-20 pt-3">
-    <Logo class="pt-2 border"/>
+<nav class="bg-amarillo h-20 w-[90%] md:w-[60%] m-auto rounded-xl fixed left-1/2 transform -translate-x-1/2 mt-4 z-50">
+    <div class="flex justify-between md:justify-around">
+        <div class="flex items-center size-20 pt-3 mx-4 md:mx-0">
+            <Logo class="pt-2 border"/> 
+        </div>
+        <div class="hidden md:flex">
+            <ul class="flex items-center text-fondo">
+                <li class="px-6  ">
+                    <a class="p-3 font-bold hover:text-white transition-all" href="">Inicio</a>
+                </li>
+                <li class="px-6  ">
+                    <a class="p-3 font-bold hover:text-white transition-all" href="">Nosotros</a>
+                </li>
+                <li class="px-6  ">
+                    <a class="p-3 font-bold hover:text-white transition-all" href="">Maquinas</a>
+                </li>
+                <li class="px-6  ">
+                    <a class="p-3 font-bold hover:text-white transition-all" href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    
+    
+        <div class="md:hidden mx-8 flex items-center" >
+            <a href="#" class="" id="menu-open-button">
+                <svg
+                class="size-8 text-fondo"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+                >
+                    <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
+            </a>
+            <a href="#" class="hidden" id="menu-close-button">
+                <svg  xmlns="http://www.w3.org/2000/svg"
+                class="size-10 text-fondo font-bold"
+                viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="3"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+            </a>
+        </div>
     </div>
-    <div class=" flex">
-        <ul class="flex items-center text-fondo">
-            <li class="px-6  ">
-                <a class="p-3 font-bold hover:text-white transition-all" href="">Inicio</a>
-            </li>
-            <li class="px-6  ">
-                <a class="p-3 font-bold hover:text-white transition-all" href="">Nosotros</a>
-            </li>
-            <li class="px-6  ">
-                <a class="p-3 font-bold hover:text-white transition-all" href="">Maquinas</a>
-            </li>
-            <li class="px-6  ">
-                <a class="p-3 font-bold hover:text-white transition-all" href="">Contacto</a>
-            </li>
-        </ul>
+
+    <div id="menu-open" class="w-full hidden bg-amarillo mt-[-20px] rounded-xl">
+        <div class="pt-10 px-8 font-bold text-xl text-fondo flex flex-col pb-6">
+            <ul class="my-2">
+                <li><a href="">Inicio</a></li>
+            </ul>
+            <ul class="my-2">
+                <li><a href="">Nosotros</a></li>
+            </ul>
+            <ul class="my-2">
+                <li><a href="">Maquinas</a></li>
+            </ul>
+            <ul class="my-2">
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
     </div>
+
 </nav>
+
+
+<script>
+const buttonOpen = document.querySelector('#menu-open-button') as Element;
+const buttonClose = document.querySelector('#menu-close-button') as Element;
+const menuOpen = document.querySelector("#menu-open") as Element;
+
+buttonOpen?.addEventListener("click", () => {
+    menuOpen.classList.toggle("hidden");
+    buttonClose.classList.toggle("hidden");
+    buttonOpen.classList.toggle("hidden");
+});
+buttonClose?.addEventListener("click", () => {
+    menuOpen.classList.toggle("hidden");
+    buttonClose.classList.toggle("hidden");
+    buttonOpen.classList.toggle("hidden");
+});
+</script>
