@@ -6,8 +6,9 @@ const maquinas = defineCollection({
         title: z.string(),
         img: z.string(),
         description: z.string(),
-        links: z.record(z.string().url()),
+        links: z.record(z.string()),
+
     })
 })
 
-export const collections = { maquinas }
+export const collections = { maquinas } ;
