@@ -7,15 +7,17 @@ console.log(maquinas)
 
 ---
 
-<section class="">
-    <div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 grid grid-cols-4 justify-items-center items-center">
+<section class=" pt-8">
+    <h3 class="text-amarillo text-3xl font-bold underline underline-offset-4 text-center">MAQUINAS</h3>
+
+    <div class="container my-6 py-4 mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center items-center">
         {
             maquinas.map(maquina =>{
                 const { slug, data } = maquina
                 const { title, img, description,  links} = data
                 
                 return (
-                <article class="h-full flex flex-col items-center text-center">
+                    <article class="h-full flex flex-col items-center text-center">
                         <a href={`/maquina/${slug}`} class="flex flex-col items-center text-center h-full transition hover:scale-110">
                             <img class="w-48 rounded-lg " src={`/${img}`} alt={title}>
                             <div class="mt-3 flex flex-col items-center">
