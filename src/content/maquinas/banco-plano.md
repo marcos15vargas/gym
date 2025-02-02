@@ -1,6 +1,6 @@
 ---
 title: Banco Plano
-img: public/maquinas/banco.png
+img: banco.png
 description: Banco usado para entrenar pecho y triceps
 links:
         APERTURAS: https://www.youtube.com/watch?v=OrlXQdNwNwM
