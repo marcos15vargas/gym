@@ -3,13 +3,13 @@
 
 <section class="bg-fondo pt-16 ">
     <div class="max-w-5xl mx-auto overflow-hidden flex justify-around">
-        <div id="pic" class="one size-28 sm:size-40 md:size-60 flex items-center justify-center">
+        <div id="one" class="pic size-28 sm:size-40 md:size-60 flex items-center justify-center">
             <h3 class="sm:text-2xl font-bold">ENERGIA</h3>
         </div>
-        <div id="pic" class="two size-28 sm:size-40 md:size-60 flex items-center justify-center">
+        <div id="two" class="pic size-28 sm:size-40 md:size-60 flex items-center justify-center">
             <h3 class="sm:text-2xl font-bold">SIN</h3>
         </div>
-        <div id="pic" class="three size-28 sm:size-40 md:size-60 flex items-center justify-center">
+        <div id="three" class="pic size-28 sm:size-40 md:size-60 flex items-center justify-center">
             <h3 class="sm:text-2xl font-bold">LIMITES</h3>
         </div>
     </div>
@@ -17,21 +17,21 @@
 
 
 <style>
-    #pic{
+    .pic{
         background-size: cover;
 		background-position: center;
         position: relative;
     }
-    .one {
+    #one {
         background-image: url('public/threepics/treepics.png');
     }
-    .two {
+    #two {
         background-image: url('public/threepics/treepics2.png');
     }
-    .three{
+    #three{
         background-image: url('public/threepics/treepics3.png');
     }
-    #pic::before {
+    .pic::before {
         content: '';
         position: absolute;
         top: 0;
@@ -42,7 +42,7 @@
         z-index: 1;
     }
 
-    #pic > * {
+    .pic > * {
         position: relative;
         z-index: 2;
     }
