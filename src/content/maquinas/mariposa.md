@@ -1,6 +1,6 @@
 ---
 title: Maquina Mariposa
-img: public/maquinas/mariposa3.png
+img: mariposa3.png
 description: Maquina usada para entrenar pecho
 links:
     PECHO EN MAQUINA MARIPOSA: https://www.youtube.com/watch?v=WtMmRk1SCEM

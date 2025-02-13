@@ -1,10 +1,6 @@
 ---
 title: Maquina de poleas
-<<<<<<< HEAD
-img: public/maquinas/poleas.png
-=======
 img: poleas.png
->>>>>>> 62e9e3a54e7ae3abf0272a1daf5ede727d0bfea9
 description: Maquina usada para entrenar gran cantidad de musculos
 links:
     CRUCE EN POLEAS: https://www.youtube.com/shorts/B_5amA7vPbA

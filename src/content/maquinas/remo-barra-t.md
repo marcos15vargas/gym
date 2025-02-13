@@ -1,6 +1,6 @@
 ---
 title: REMO BARRA T
-img: public/maquinas/barra t.png
+img: barra t.png
 description: Maquina usada para entrenar la espalda
 links:
     REMO AGARRE NEUTRO: https://www.youtube.com/watch?v=AHEFbWwxbKk

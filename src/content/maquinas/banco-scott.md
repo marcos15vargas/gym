@@ -1,6 +1,6 @@
 ---
 title: Banco scott
-img: public/maquinas/banco scott.png
+img: banco scott.png
 description: Maquina usada para entrenar los biceps
 links:
     CURL DE BICEPS BARRA Z: https://www.youtube.com/watch?v=Ks5KNBSmw6A

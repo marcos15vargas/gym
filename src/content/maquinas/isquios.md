@@ -1,6 +1,6 @@
 ---
 title: Camilla de isquios
-img: public/maquinas/j.png
+img: j.png
 description: Maquina usada para entrenar los isquiotibiles
 links:
     CAMILLA DE ISQUIOS: https://www.youtube.com/watch?v=boNKwE345W8
