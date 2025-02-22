@@ -1,6 +1,6 @@
 ---
 title: Banco Inclinado
-img: banco inclinado.png
+img: banco inclinado.webp
 description: Maquina usada para entrenar el tren superior
 links:
     PRESS INCLINADO CON BARRA: https://www.youtube.com/watch?v=-vYzoCo9VRU

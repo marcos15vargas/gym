@@ -1,6 +1,6 @@
 ---
 title: Banco de extension lumbar
-img: espinales.png
+img: espinales.webp
 description: Maquina usada para entrenar la espalda
 links:
     ESPINALES EN MAQUINA: https://www.youtube.com/shorts/HLD17yJww6U

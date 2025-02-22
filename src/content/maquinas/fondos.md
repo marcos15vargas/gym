@@ -1,6 +1,6 @@
 --- 
 title: Estacion de fondos
-img: fondos.png
+img: fondos.webp
 description: Maquina usada para entrenar triceps y abdominales
 links:
     FONDOS EN PARALELAS: https://www.youtube.com/shorts/lC7lLkjDZ_k

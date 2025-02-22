@@ -1,6 +1,6 @@
 ---
 title: Maquina Smith o Multipower
-img: smith.png
+img: smith.webp
 description: Maquina usada para entrenar distintos grupos musculares
 links:
     SENTADILLA: https://www.youtube.com/shorts/7cxG2c2j6es

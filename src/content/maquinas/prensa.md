@@ -1,6 +1,6 @@
 ---
 title: Prensa
-img: preewnsaaaa.png
+img: preewnsaaaa.webp
 description: Maquina usada para entrenar los cuadriceps y pantorrilas
 links:
     CUADRICEPS: https://www.youtube.com/shorts/OT7gKslX6pA

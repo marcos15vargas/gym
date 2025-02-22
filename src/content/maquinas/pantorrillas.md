@@ -1,6 +1,6 @@
 ---
 title: Maquina de pantorrilas
-img: pantorrillas.png
+img: pantorrillas.webp
 description: Maquina usada para entrenar pantorrilas
 links:
     PANTORRILAS EN MAQUINA: https://www.youtube.com/shorts/RDLWmpc0suQ

@@ -1,6 +1,6 @@
 ---
 title: Banco para Press Militar
-img: press militar.png
+img: press militar.webp
 description: Maquina usada para entrenar los hombros
 links:
     PRESS MILITAR CON BARRA: https://www.youtube.com/shorts/MRxd1LA4OYk

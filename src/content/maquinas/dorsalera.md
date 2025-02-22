@@ -1,6 +1,6 @@
 ---
 title: Dorsalera
-img: dors (1).png
+img: dors (1).webp
 description: Maquina usada para entrenar espalda
 links:
     JALON AL PECHO: https://www.youtube.com/watch?v=x2Y6Mb41zjY
