@@ -1,5 +1,3 @@
-¡Genial! Con ese código completo ya puedo armarte un README más detallado y profesional para tu proyecto de **GYM COSTANERA**. Incluye información del sitio, estructura, instalación y despliegue. Aquí va:
-
 ---
 
 ### 📄 `README.md`
