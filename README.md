@@ -1,48 +1,138 @@
-# Astro Starter Kit: Basics
+¡Genial! Con ese código completo ya puedo armarte un README más detallado y profesional para tu proyecto de **GYM COSTANERA**. Incluye información del sitio, estructura, instalación y despliegue. Aquí va:
 
-```sh
-npm create astro@latest -- --template basics
+---
+
+### 📄 `README.md`
+
+```markdown
+# 🏋️‍♂️ GYM COSTANERA
+
+Sitio web oficial de **GYM COSTANERA**, un gimnasio ubicado en Villa San Agustín, Valle Fértil. El sitio ofrece información sobre los servicios del gimnasio, horarios, planes, ubicación, y una galería de máquinas con ejemplos de ejercicios.
+
+## 🌐 Demo
+
+🔗 [Ver sitio en producción](https://tusitio.vercel.app) *(modifica este link si ya está publicado)*
+
+---
+
+## 🚀 Tecnologías Utilizadas
+
+- [Astro](https://astro.build/) — Framework moderno para sitios rápidos y optimizados.
+- HTML + CSS + TailwindCSS
+- Google Analytics (gtag.js)
+- FontAwesome (iconos)
+- Fuentes personalizadas (Gotham)
+- Markdown + contenido dinámico (colección de máquinas)
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+src/
+├── components/
+│   ├── Banner.astro
+│   ├── Contact.astro
+│   ├── Footer.astro
+│   ├── Info.astro
+│   ├── Location.astro
+│   ├── Maquinas.astro
+│   ├── Navbar.astro
+│   ├── Plans.astro
+│   ├── Threepics.astro
+│   └── TimeTable.astro
+├── layouts/
+│   └── Layout.astro
+├── pages/
+│   ├── index.astro
+│   └── maquinas/[id].astro
+└── content/
+    └── maquinas/
+        └── *.md  # Archivos markdown con info de cada máquina
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ✨ Funcionalidades
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- Página principal con secciones: Banner, Info, Planes, Galería, Horarios, Ubicación y Contacto.
+- Enrutamiento dinámico para cada máquina (`maquinas/[id]`).
+- Carga automática de datos desde Markdown (`content/maquinas`).
+- Enlaces con ejemplos de ejercicios para cada máquina.
+- Componente `Layout` central con `Navbar` y `Footer`.
+- SEO básico y responsive design.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🧪 Cómo ejecutar el proyecto
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/gym-costanera.git
+cd gym-costanera
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### 2. Instalar dependencias
 
-## 🧞 Commands
+```bash
+npm install
+```
 
-All commands are run from the root of the project, from a terminal:
+### 3. Ejecutar en modo desarrollo
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+npm run dev
+```
 
-## 👀 Want to learn more?
+El sitio estará disponible en `http://localhost:4321`
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 4. Compilar para producción
+
+```bash
+npm run build
+```
+
+### 5. Vista previa de producción
+
+```bash
+npm run preview
+```
+
+---
+
+## 🧩 Contenido dinámico
+
+Las máquinas se cargan desde la colección `content/maquinas`. Cada archivo `.md` debe incluir metadatos como:
+
+```markdown
+---
+title: Press de Banca
+img: press-banca.jpg
+description: Ejercicio para pectorales.
+links:
+  Video 1: https://youtube.com/ejemplo1
+  Video 2: https://youtube.com/ejemplo2
+---
+Aquí podés escribir contenido en Markdown sobre la máquina.
+```
+
+---
+
+## 👨‍💻 Autores
+
+- **Maximiliano Burgoa**  
+- **Marcos Vargas**
+
+---
+
+## 📬 Contacto
+
+¿Querés entrenar con nosotros? ¡Encontranos en nuestras redes o vení al gimnasio!
+
+---
+
+💪 *Gracias por visitar GYM COSTANERA. ¡A darlo todo en cada entrenamiento!*
+```
+
+---
