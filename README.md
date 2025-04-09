@@ -4,7 +4,7 @@ Sitio web oficial de **GYM COSTANERA**, un gimnasio ubicado en Villa San Agustí
 
 ## 🌐 Demo
 
-🔗 [Ver sitio en producción](https://tusitio.vercel.app) *(modifica este link si ya está publicado)*
+🔗 [Ver sitio en producción](https://gimnasiocostanera.com)
 
 ---
 
