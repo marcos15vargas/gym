@@ -1,8 +1,3 @@
----
-
-### 📄 `README.md`
-
-```markdown
 # 🏋️‍♂️ GYM COSTANERA
 
 Sitio web oficial de **GYM COSTANERA**, un gimnasio ubicado en Villa San Agustín, Valle Fértil. El sitio ofrece información sobre los servicios del gimnasio, horarios, planes, ubicación, y una galería de máquinas con ejemplos de ejercicios.
